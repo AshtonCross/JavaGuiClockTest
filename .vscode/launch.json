@@ -1,0 +1,17 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch DisplayClock",
+            "request": "launch",
+            "mainClass": "DisplayClock",
+            "projectName": "14.27_da3c849c",
+            "vmArgs": [
+                "--module-path",
+                "${env:PATH_TO_FX}",
+                "--add-modules",
+                "javafx.controls,javafx.fxml"
+            ]
+        }
+    ]
+}
